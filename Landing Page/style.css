@@ -1,0 +1,152 @@
+
+body{
+    background-color: blanchedalmond;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  #image1{
+    width:30%;
+  }
+
+  .form{
+    width:60%;
+    margin:auto;
+    margin-right:20px;
+    
+  }
+  #username, #mail, #comment{
+    display:block;
+    margin:10px;
+    width:30%;
+  }
+  .div{
+     margin:auto;
+  }
+
+  #comment{
+    height:200px;
+  }
+
+  #contact{
+    margin-top: 5rem;
+}
+.contact__form{
+    position:relative;
+    right:28%;
+    display: flex;
+    background-color:blanchedalmond ;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+.contact__right{
+    flex-basis: 40%;
+
+}
+.contact__right img{
+  position:relative;
+  left:14px;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+#cat, #dog{
+  position:relative;
+  left:30px;
+}
+.contact__left{
+    flex-basis: 60%;
+}
+.contact__left h2{
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.div{
+  position:relative;
+  left:100px;
+}
+form{
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+input,textarea{
+    margin: 0.5rem;
+    width: 400px;
+    padding: 0.8rem;
+}
+input:last-child{
+    background-color:black;
+    border: none;
+    color: white;
+    font-size: medium;
+}
